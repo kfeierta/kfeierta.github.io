@@ -8,5 +8,5 @@ gem 'rack', '~> 2.2.4'
 gem 'rspec'
 
 group :test do
-  gem "html-proofer", "~> 3.1"
+  gem "html-proofer", "~> 5.0"
 end
