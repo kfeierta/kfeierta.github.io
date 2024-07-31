@@ -35,39 +35,36 @@ Install commands
 
 2. Make sure your device is up to date
 
-```Code
+```text
 sudo apt-get update && sudo apt-get upgrade
 ```
 
 Install Java
 
-```Code
-Hello
+```text
+INSERT CODE HERE
 ```
 
 Download Unifi Controller (example)
 
-```Code
+
 wget https://dl.ubnt.com/unifi/5.10.17/unifi_sysvinit_all.deb
-```
+
 
 List the download so you know it downloaded and what the file name is.
 
-```Code
+
 ls
-```
+
 
 Unpackage and install the file (Enter password when prompted)
 
-```Code
 sudo dpkg -i unifi_sysvinit_all.deb
-```
+
 
 Install the dependencies (Press Y when prompted)
 
-```Code
 sudo apt-get -f install
-```
 
 
 
@@ -80,8 +77,6 @@ username@Unificontroller:~$
 
 To remove the file you will need to send the following command:
 
-```Code
 sudo rm unifi_sysvinit_all.deb
-```
 
 I hope this helped you. Let me know if you have had any problems with your Unifi install or any cool projects with Ubiquiti's gear.  I've recently been working on setting up Guest Networks, to help separate my family network from visitors that ask for their Wifi Password. When was the last time you changed your Wi-Fi password?
