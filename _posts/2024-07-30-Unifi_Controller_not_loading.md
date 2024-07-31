@@ -3,7 +3,7 @@ title: Unifi Controller installs without web GUI
 description: Unifi Problems
 date: 2024-07-30 13:00:00:01 +/-0000
 categories: [Unifi, Troubleshoot]
-tags: [virtual,unifi,powershell]     # TAG names should always be lowercase
+tags: [virtual,unifi]     # TAG names should always be lowercase
 toc: true
 comments: active
 ping: true
