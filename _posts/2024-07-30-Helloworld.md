@@ -8,7 +8,7 @@ toc: true
 comments: active
 ping: true
 image:
-  path: https://technotim.live/assets/img/headers/mini-rack-homelab-stack-hero.webp
+  path: '/assets/img/headers/hello.jpg'
 ---
 
 Hello World!
