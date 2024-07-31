@@ -73,9 +73,11 @@ sudo apt-get -f install
 
 If you have an older install of the controller you will need to remove the old file.
 
+```text
 username@Unificontroller:~$ 'ls'
 unifi_sysvinit_all.deb
 username@Unificontroller:~$
+```
 
 To remove the file you will need to send the following command:
 
