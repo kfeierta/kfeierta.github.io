@@ -47,25 +47,27 @@ INSERT CODE HERE
 
 Download Unifi Controller (example)
 
-
+```text
 wget https://dl.ubnt.com/unifi/5.10.17/unifi_sysvinit_all.deb
-
+```text
 
 List the download so you know it downloaded and what the file name is.
 
-
+```text
 ls
-
+```text
 
 Unpackage and install the file (Enter password when prompted)
 
+```text
 sudo dpkg -i unifi_sysvinit_all.deb
-
+```text
 
 Install the dependencies (Press Y when prompted)
 
+```text
 sudo apt-get -f install
-
+```text
 
 
 
@@ -77,6 +79,8 @@ username@Unificontroller:~$
 
 To remove the file you will need to send the following command:
 
+```text
 sudo rm unifi_sysvinit_all.deb
+```text
 
 I hope this helped you. Let me know if you have had any problems with your Unifi install or any cool projects with Ubiquiti's gear.  I've recently been working on setting up Guest Networks, to help separate my family network from visitors that ask for their Wifi Password. When was the last time you changed your Wi-Fi password?
